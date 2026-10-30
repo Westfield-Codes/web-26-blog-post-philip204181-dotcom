@@ -2,3 +2,37 @@
 
 
 /* NEW CSS HERE */
+  
+ #gradient {
+               position: fixed;
+                        inset: 0;
+                        width: 100%;
+                        height: 100%;
+                        z-index: 0;
+                        pointer-events: none;
+                }
+
+                body > :not(#gradient) {
+                        position: relative;
+                        z-index: 1;
+                }
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.class2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img.img-fluid.rounded {
+    z-index:100;
+}
+.bg-trans {
+ background-color: rgba(255, 255, 255, 0.6);
+border-radius: 0.375rem;
+border-end-end-radius: 0.25rem;
+border-top-left-radius: 0.5rem;
+padding:20px;
+
+}
